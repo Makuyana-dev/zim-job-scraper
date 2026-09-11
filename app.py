@@ -5,8 +5,7 @@ from datetime import datetime
 st.set_page_config(page_title="ZIM JOB SCRAPER", page_icon="🇿🇼")
 st.title("🇿🇼 ZIM JOB SCRAPER")
 
-df = pd.read_csv('jobs.csv', encoding='latin-1')
-
+df = pd.read_csv('jobs.csv', encoding='utf-8')
 search = st.text_input("🔍 Search Job Title")
 location = st.text_input("📍 Filter by Location e.g. Harare")
 
