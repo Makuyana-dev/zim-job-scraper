@@ -38,5 +38,5 @@ st.dataframe(filtered_df, use_container_width=True)
 
 st.markdown("---")
 st.markdown("💰 **PREMIUM: $3/month for WhatsApp Job Alerts**")
-st.markdown("Send EcoCash to 078 5805 135")
+st.markdown("Send EcoCash to 078 580 5135")
 st.markdown("Then WhatsApp `JOIN` to get jobs daily")
