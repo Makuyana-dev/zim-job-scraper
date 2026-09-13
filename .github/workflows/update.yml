@@ -2,7 +2,7 @@ name: Auto Update Jobs
 
 on:
   schedule:
-    - cron: '0 6,18 *'  # Runs at 8am and 8pm Zim time
+    - cron: '0 6,18 * * *'  # Runs at 8am and 8pm Zim time
   workflow_dispatch:  # Lets you run it manually
 
 jobs:
